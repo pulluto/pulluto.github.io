@@ -112,9 +112,9 @@ theme: hexo-theme-mxmatery
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-   - type: git 
-     repo: #上传地址
-     branch: master
+  type: git
+  repository: git@github.com:pulluto/pulluto.github.io.git
+  branch: master
 search:
   path: search.xml
   field: post
